@@ -1,7 +1,14 @@
 /* ===General Page Stuff=== */
-
+body {
+    text-align: center;
+}
 /* ===Nav Bar Stuff=== */
-
+#navbar {
+    text-align: right;
+}
+#navbar ul {
+    list-style-type: none;
+}
 /* ===Body Stuff=== */
 #maximus {
     max-width: 600px;
