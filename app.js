@@ -9,9 +9,9 @@ app.get("/", function(req, res) {
 
 app.get("/projects", function(req, res) {
     var projects = [
-        {Name: "Tribute Page", Image: "https://dimensionless.in/wp-content/uploads/2018/12/projects-cover.jpg"},
-        {Name: "Technical Documentation", Image: "https://i.udemycdn.com/course/750x422/418102_3c86_3.jpg"},
-        {Name: "Product Landing", Image: "http://www.illuminationworksllc.com/wp-content/uploads/2017/04/ProjectManagement-1.jpg"}
+        {name: "Tribute Page", image: "https://dimensionless.in/wp-content/uploads/2018/12/projects-cover.jpg"},
+        {name: "Technical Documentation", image: "https://i.udemycdn.com/course/750x422/418102_3c86_3.jpg"},
+        {name: "Product Landing", image: "http://www.illuminationworksllc.com/wp-content/uploads/2017/04/ProjectManagement-1.jpg"}
     ];
     res.render("projects",{projects:projects});
 })

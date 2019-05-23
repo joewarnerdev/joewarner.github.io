@@ -1,3 +1,7 @@
 <h1>This is the projects page</h1>
 
-<%= projects %>
+<%= projects.forEach(function(projects)) { %>
+    <div>
+        <h4><%= projects.name %></h4>
+        <img src="<%= projects.image %>">
+    </div>
