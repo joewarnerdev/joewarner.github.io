@@ -1,0 +1,19 @@
+{
+  "name": "personalsite",
+  "version": "1.0.0",
+  "description": "Personal Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joewarnerdev/joewarner.github.io.git"
+  },
+  "author": "Joe Warner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joewarnerdev/joewarner.github.io/issues"
+  },
+  "homepage": "https://github.com/joewarnerdev/joewarner.github.io#readme"
+}
