@@ -1,14 +1,22 @@
 {
-  "name": "joewarnerdev",
+  "name": "natours",
   "version": "1.0.0",
-  "description": "personal website",
-  "main": "app.js",
+  "description": "Natours project",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joewarnerdev/jwdevnat.github.io.git"
   },
   "author": "Joe Warner",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.0"
+  "bugs": {
+    "url": "https://github.com/joewarnerdev/jwdevnat.github.io/issues"
+  },
+  "homepage": "https://github.com/joewarnerdev/jwdevnat.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
   }
 }
