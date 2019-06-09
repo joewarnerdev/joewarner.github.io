@@ -431,7 +431,7 @@ body {
     display: table;
     overflow: hidden;
     opacity: 0;
-    translate: transform -50%, -50% scale(0.5);
+    translate: transform -50%, -50% scale(0.25);
     transition: all .4s .2s; }
   .popup__left {
     width: 33.3333333333333333%;
